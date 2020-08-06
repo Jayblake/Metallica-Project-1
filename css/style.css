@@ -1,0 +1,402 @@
+/*---------------------------------------------------Media Queries */
+@media screen and (max-width: 576px) {
+    #my-text {
+        display: none;
+    }
+}
+
+/*----------default container padding-margins */
+.alt-grid [class*="col"] {padding:0; }
+.alt-grid .row {margin:0; }
+.alt-grid .container {width: 100%; padding: 0; }
+.remove-all-margin-padding {
+    margin: 0 ! important;
+    padding: 0 ! important;
+}
+
+/*-------------------------background colors */
+.ui-menu-color-home {
+    background-color: rgb(25, 26, 26);
+}
+.ui-menu-color-road {
+    background-color:rgb(25, 26, 26);
+}
+.ui-menu-color-albums {
+    background-color: rgb(25, 26, 26);
+}
+.ui-menu-color-sign-up {
+    background-color:rgb(25, 26, 26);
+}
+.ui-menu-color-gallery {
+    background-color:rgb(25, 26, 26);
+}
+.ui-menu-color-merchandise {
+    background-color:rgb(25, 26, 26);
+}
+.ui-menu-color-booking {
+    background-color: #fff;
+}
+.introduction {
+    background-color: rgb(25, 26, 26);
+}
+#container {
+    background-color: floralwhite;
+}
+footer {
+    background-color: rgb(25, 26, 26);
+    height: 80px;
+}
+/*---------------------------------------------------Headings */
+header {
+    margin: 0;
+}
+h4 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*-------------------------home page containers */
+.menucontainer {
+    margin: 0;
+}
+.container-fluid {
+    padding: 0;
+}
+/* home page padding & margins */
+#div col {
+    padding-right: 0;
+    padding-left: 0;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.list-inline-item menuitem {
+    padding: 0;
+}
+/* nav bar list */
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    font-family: "Exo" , sans-serif;
+}
+/* nav bar menu items */
+.menuitem {
+    padding: 0;
+    text-align: center;
+    height: 60px;
+}
+.menuitem a {
+    width: 100%;
+    text-decoration:none;
+    height: 48px;
+    color: floralwhite;
+}
+.menuitem a i {
+    padding-top: 13px;
+    display: block;
+    font-size: 16px;
+    color: floralwhite;
+}
+div ul {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#container {
+    padding-bottom: 5px;
+}
+/*---------------------------------------------------------modal*/
+.modal-body li i {
+    color:black;
+    font-size: 20px;
+}
+.modal-header {
+    background-color: rgb(10, 162, 233);
+}
+/*--------------------------------------------------section image */
+#logo-img {
+    max-height: 200px;
+    width: 100%;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*--------------------------------------------------section image */
+#homepage-img {
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin: 0;
+    padding: 5px 0 0;
+
+}
+section p {
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.introduction {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto' , sans-serif;
+    color: rgb(10, 162, 233);
+}
+/*---------------------------------------------------footer */
+/* footer size */
+footer {
+    height: 100px;
+    min-height: 100px;
+    width: 100%;
+    padding-bottom: 0;
+}
+/* footer text & styling */
+h6 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#footer-details {
+    padding: 20px;
+}
+.general-sub {
+    font-family: "Exo" , sans-serif;
+    font-weight: 400;
+    color: floralwhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+footer div {
+    text-align: center;
+}
+footer {
+    height: 100px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    min-height: 100px;
+    width: 100%;
+}
+/* footer social links */
+.social-links {
+    padding-bottom: 0;
+    padding-left: 0;
+}
+ul.inline-list.social-links {
+    margin: 0;
+}
+.social-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+#footer-details {
+    padding: 20px;
+}
+/*---------------------------------------------------hover.css*/
+/* footer social links hover */
+.social-links li a i:hover {
+    background:  rgb(10, 162, 233);
+}
+/* nav bar hover*/
+.hvr-sweep-to-bottom:before {
+    background: rgb(10, 162, 233);
+    height: 60px;
+}
+/*---------------------------------------------------albums.html */
+
+
+/* album page container */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+/* album & gallery page images */
+#img-contain {
+    margin: 15px;
+}
+
+#img-1, #img-2, #img-3, #img-4, #img-5, #img-6, #img-7, #img-8, #img-9, #img-10, #img-11, #img-12  {
+    padding: 15px;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.audio-container {
+    padding-bottom: 20px;
+    text-align: center;
+}
+/*-------------------------------------------------------Contact and booking form*/
+/* contact page container */
+#contact-container {
+    text-align: center;
+}
+* {box-sizing: border-box}
+
+/* Input fields */
+.label {
+    display: inline;
+}
+
+#contact-container p {
+    margin-top: 40px;
+    margin-bottom: 3px;
+}
+
+#contact-container h6 {
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*---------input styling-----------*/
+
+input {
+    align-items: center;
+    border: none;
+    background-color: rgb(10, 162, 233);
+    font-family: "Roboto" , sans-serif;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    align-items: center;
+    border: none;
+    background-color: rgb(10, 162, 233);
+    font-family: "Roboto" , sans-serif;
+    margin-bottom: 20px;
+}
+
+input[type=password] {
+    align-items: center;
+    border: none;
+    background-color: rgb(10, 162, 233);
+    font-family: "Roboto" , sans-serif;
+    margin-bottom: 20px;
+}
+
+#name {
+    margin-bottom: 5px;
+    font-family: "Roboto" , sans-serif;
+    width: 60%;
+}
+
+#email {
+    margin-bottom: 5px;
+    font-family: "Roboto" , sans-serif;
+    width: 60%;
+}
+
+#password {
+    margin-bottom: 5px;
+    font-family: "Roboto" , sans-serif;
+    width: 60%;
+}
+
+#repeat-password {
+    margin-bottom: 5px;
+    font-family: "Roboto" , sans-serif;
+    width: 60%;
+}
+
+#remember-me {
+    display: inline;
+    margin: 0;
+    font-family: "Roboto" , sans-serif;
+}
+
+#address {
+    margin-bottom: 5px;
+    font-family: "Roboto" , sans-serif;
+    width: 60%;
+}
+
+#contact-number {
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    width: 60%;
+}
+
+#check-box {
+    display: inline;
+
+}
+::placeholder {
+    color: black;
+    font-family: "Roboto" , sans-serif;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* style for submit button */
+input[type=Submit] {
+    background-color: rgb(122, 121, 118);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    font-family: "Roboto" , sans-serif;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Float signup button and add an equal width */
+.sign-up-btn {
+    min-width: 40%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    clear: both;
+    display: table;
+}
+
+/*---------------------------------------------------modal styling--*/
+#open-modal {
+    color: #fafafa;
+    background-color:   rgb(10, 162, 233);
+}
+
+/*---------------------------------------------thanks.html styling--*/
+#thanks {
+    padding-bottom: 190px;
+    font-family: Roboto , sans-serif;
+}
